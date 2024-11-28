@@ -48,3 +48,32 @@ console.log(typeof myFunction);
 
 //For refering to the Documentation of JavaScript
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack and Heap Memory
+//------------------------
+// Stack (Primitive) and Heap (Non-Primitive) Memory
+
+// Example of Stack Memory
+
+let myYoutubename = "kunalsainidotcom"
+
+let anothername = myYoutubename
+anothername = "kunalsaini"
+console.log(anothername);
+console.log(myYoutubename);
+
+// Example of Heap Memory
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@hdfc"
+}
+
+let userTwo = userOne
+userTwo.email = "kunal@google.com"
+
+console.log(userOne);
+console.log(userTwo);
