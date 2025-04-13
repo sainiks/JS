@@ -43,10 +43,3 @@ JsUser.greetingtwo = function(){
 }
 console.log(JsUser.greeting()); // Hello Js User
 console.log(JsUser.greetingtwo()); // Hello Js User, ${this.name}
-
-
-
-
-
-
-
