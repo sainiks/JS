@@ -58,14 +58,53 @@ const user =[
 
 
 user[1].email
-console.log(user[1]["email"]); // output is :-
+// console.log(user[1]["email"]); // output is :-
 // this is how we access the object in an array
 
 
 
-console.log(tinderUser); // { id: '123abc', name: 'kunal', isLoggedIn: false }
-console.log(Object.keys(tinderUser)); // to get the keys of the object
-console.log(Object.values(tinderUser)); // to get the values of the object
-console.log(Object.entries(tinderUser)); // to get the entries of the object
+// console.log(tinderUser); // { id: '123abc', name: 'kunal', isLoggedIn: false }
+// console.log(Object.keys(tinderUser)); // to get the keys of the object
+// console.log(Object.values(tinderUser)); // to get the values of the object
+// console.log(Object.entries(tinderUser)); // to get the entries of the object
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to check if the object has the property or not
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to check if the object has the property or not
+
+
+
+const course = {
+    coursename : "JS for Beginners",
+    price : 999,
+    courseInstructor: "Kunal Saini",
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor}= course // this is how we destructure an object // here you can change the name of the variable and set it to the value of the object of your own name
+console.log(instructor); // Kunal Saini
+
+// It is a good practice to destructure the object in the function parameter itself
+//It is react specific example 
+// const navbar = ({company}) => { 
+// }
+// navbar(company = "kunal") // this is how we call a function
+
+
+// APIs and JSON
+// JSON is a string format
+
+// JSON is a string format that is used to send data from server to client
+
+// it is an example of API in JSON format
+// {
+    // name : "kunal",
+    // coursename : "JS for Beginners",
+    // price : "free",
+// }
+ 
+// it is an example of API in array format
+// [
+    // {},
+    // {},
+    // {},
+// ]
