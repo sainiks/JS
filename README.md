@@ -1,4 +1,4 @@
-# JS - JavaScript Learning Repository
+# JSLR - JavaScript Learning Repository
 
 A Code repository for JavaScript Students. This repository contains code examples and explanations for various JavaScript concepts, organized into different sections.
 
